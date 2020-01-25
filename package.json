@@ -1,0 +1,41 @@
+{
+  "name": "shelterbuns",
+  "version": "1.0.0",
+  "description": "Exercise traking app for House Rabbit Resource Network",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thedeadline/shelterbuns.git"
+  },
+  "author": "Stephanie Caulley and Isabelle Giuong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thedeadline/shelterbuns/issues"
+  },
+  "homepage": "https://github.com/thedeadline/shelterbuns#readme",
+  "dependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/node": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "@babel/preset-react": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "koa": "^2.11.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "babel-jest": "^25.1.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-react": "^7.18.0",
+    "eslint-plugin-react-hooks": "^2.3.0",
+    "jest": "^25.1.0",
+    "nodemon": "^2.0.2",
+    "react-test-renderer": "^16.12.0"
+  }
+}
