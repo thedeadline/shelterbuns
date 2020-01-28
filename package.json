@@ -4,7 +4,9 @@
   "description": "Exercise traking app for House Rabbit Resource Network",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "dev-server": "nodemon --exec babel-node src/server/server.js --ignore public/",
+    "dev-bundle": "webpack -w -d"
   },
   "repository": {
     "type": "git",
