@@ -1,25 +1,37 @@
 {
-  "name": "shelterbuns",
+  "name": "backend",
   "version": "1.0.0",
-  "description": "Exercise traking app for House Rabbit Resource Network",
-  "main": "index.js",
+  "description": "backend for Shelterbuns",
+  "main": "server.js",
   "scripts": {
-
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/thedeadline/shelterbuns.git"
   },
-  "author": "Stephanie Caulley",
+  "author": "sdcaulley",
   "license": "GPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/thedeadline/shelterbuns/issues"
   },
   "homepage": "https://github.com/thedeadline/shelterbuns#readme",
   "dependencies": {
+    "@koa/cors": "^3.0.0",
+    "@koa/router": "^8.0.6",
     "koa": "^2.11.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-compose": "^4.1.0",
+    "mongoose": "^5.8.10"
   },
   "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "dotenv": "^8.2.0",
     "eslint": "^6.8.0",
+    "eslint-plugin-node": "^11.0.0",
+    "koa-logger": "^3.2.1",
+    "mocha": "^7.0.1",
+    "nodemon": "^2.0.2"
   }
 }
