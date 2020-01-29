@@ -2,14 +2,24 @@
   "name": "shelterbuns",
   "version": "1.0.0",
   "description": "Exercise traking app for House Rabbit Resource Network",
+  "main": "index.js",
+  "scripts": {
+
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/thedeadline/shelterbuns.git"
   },
-  "author": "Stephanie Caulley and Isabelle Giuong",
+  "author": "Stephanie Caulley",
   "license": "GPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/thedeadline/shelterbuns/issues"
   },
-  "homepage": "https://github.com/thedeadline/shelterbuns#readme"
+  "homepage": "https://github.com/thedeadline/shelterbuns#readme",
+  "dependencies": {
+    "koa": "^2.11.0",
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+  }
 }
