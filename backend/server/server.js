@@ -1,6 +1,4 @@
 import Koa from 'koa';
-import React from 'react';
-import App from '../components/App';
 
 const server = new Koa();
 
