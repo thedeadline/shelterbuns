@@ -13,6 +13,9 @@ let RabbitSchema = new mongoose.Schema({
   },
   location: {
     type: String
+  },
+  status: {
+    type: String
   }
 });
 
