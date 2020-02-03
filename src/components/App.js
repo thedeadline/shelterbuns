@@ -5,7 +5,7 @@ export default function App() {
   return (
     <div>
       This is a sample stateful and server-side
-      rendered React application from frontend source components.
+      rendered React application from src componenets.
       <br />
       <br />
       Here is a button that will track

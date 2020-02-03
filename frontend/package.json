@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "dev-server": "nodemon --exec babel-node src/server/server.js --ignore public/",
-    "dev-bundle": "webpack -w -d"
+    "dev-bundle": "webpack -w -d",
+    "start": "es-dev-server --watch --node-resolve --open public/index.html"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,7 @@
   "devDependencies": {
     "babel-eslint": "^10.0.3",
     "babel-jest": "^25.1.0",
+    "es-dev-server": "^1.37.0",
     "eslint": "^6.8.0",
     "eslint-plugin-react": "^7.18.0",
     "eslint-plugin-react-hooks": "^2.3.0",
